@@ -55,6 +55,117 @@
                 </div>
             </g:if>
 
+            <!-- PLIC fields -->
+            <g:if test="${tc.plicDescriptions[0].synonymsUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Synonyms</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        ${tc.plicDescriptions[0].synonymsUnstructured}
+                    </div>
+                </div>
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].fullDescriptionUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Full Description</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].fullDescriptionUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].lifeCycleUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Life Cycle</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].lifeCycleUnstructured}</p>
+                    </div>
+                </div>
+
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].reproductionUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Reproduction</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].reproductionUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].feedingUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Feeding</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].feedingUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].habitatUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Habitat</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].habitatUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+           <g:if test="${tc.plicDescriptions[0].distributionUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Distribution</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].distributionUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].populationBiologyUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Population Biology</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].populationBiologyUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+            <g:if test="${tc.plicDescriptions[0].usesUnstructured}">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Uses</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>${tc.plicDescriptions[0].usesUnstructured}</p>
+                    </div>
+                </div>
+            </g:if>
+
+
             <div id="descriptiveContent"></div>
 
             <div id="sounds" style="padding-bottom:20px;"></div>
